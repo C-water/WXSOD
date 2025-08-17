@@ -12,6 +12,10 @@
   Quan Chen,&nbsp; Xiong Yang,&nbsp; Rongfeng Lu,&nbsp; Qianyu Zhang,&nbsp; Yu Liu,&nbsp; Xiaofei Zhou,&nbsp; Bolun Zheng*
 </p>
 
+<p align="center">
+  Hangzhou Dianzi University, Tsinghua University, Jiaxing University
+</p>
+
 - [x] Part I: WXSOD Dataset
 - [x] Part II: Benchmark Results
 - [x] Part III: Train and Test
@@ -19,7 +23,7 @@
 
 
 ## 📧 Contact
-If you’re interested in collaborating or would like to connect, feel free to reach out 😊, 
+I am actively seeking academic collaboration. If you’re interested in collaborating or would like to connect, feel free to reach out 😊. 
 - Email: chenquan@alu.hdu.edu.cn
 - WeChat: cq1045333951 
 
