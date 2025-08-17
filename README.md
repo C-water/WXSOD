@@ -18,17 +18,23 @@
 - [x] Part IV: Pre-trained Checkpoints
 
 
+## 📧 Contact
+If you’re interested in collaborating or would like to connect, feel free to reach out 😊, 
+- Email: chenquan@alu.hdu.edu.cn
+- WeChat: cq1045333951 
+
 ## <a id="table-of-contents"></a> 📚 Table of contents
 
-- [Dataset Highlights](#dataset-highlights)
-- [Dataset Access](#dataset-access)
-- [Dataset Structure](#dataset-structure)
-- [Benchmark Results](#Benchmark-results)
-- [Train and Test](#train-and-test)
-- [Pre-trained Checkpoints](#pre-trained-checkpoints)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-- [Citation](#citation)
+- [🌟 Dataset Highlights](#dataset-highlights)
+- [💾 Dataset Access](#dataset-access)
+- [📁 Dataset Structure](#dataset-structure)
+- [🔥 Benchmark Results](#Benchmark-results)
+- [🛠️ Requirements](#Requirements)
+- [🚀 Train and Test](#train-and-test)
+- [🤗 Pre-trained Checkpoints](#pre-trained-checkpoints)
+- [🎫 License](#license)
+- [🙏 Acknowledgments](#acknowledgments)
+- [📌 Citation](#citation)
 
 ## <a id="dataset-highlights"></a> 🌟 Dataset Highlights
 <b><i>WXSOD</i> dataset</b> provides a large-scale dataset (14,945 RGB images) for salient object detection under extreme weather conditions. Distinguishing itself from existing RGB-SOD benchmarks, it provides images with ​​diverse degradation​​ patterns and ​​pixel-wise annotations​​. Our dataset contains:
@@ -80,16 +86,41 @@ Note that the quantitative results are derived from the predicted image at the o
 ![](resources/Table2.jpeg)
 ![](resources/Table3.jpeg)
 
+
+## <a id="Requirements"></a> 🛠️ Requirements
+
+- torch == 2.1.0+cu121
+- timm == 1.0.11
+- imgaug == 0.4.0
+- pysodmetrics == 1.4.2
+
 ## <a id="train-and-test"></a> 🚀 Train and Test
 
+- Train the WFANet.
+```
+sh run.sh
+```
+
+- Generate saliency images based on the weights obtained during the training phase (or the weight we provide).
+```
+sh runtest.sh
+```
+
+- Calculate the quantitative values of WFANet's predicted images.
+```
+sh runEvaluation.sh
+```
 
 ## <a id="pre-trained-checkpoints"></a> 🤗 Pre-trained Checkpoints
-The pre-trained model is available at [Google Drive]() and [BaiduDisk]().
+Pre training weights for PVTV2-b and WFANet need to be downloaded. The pre trained weights of ResNet18 can be automatically downloaded through Timm. Remember to modify the weight path!
+
+- The pre-trained backbone PVTV2-b is available at [Google Drive](https://drive.google.com/file/d/1YJY2YPA82kHciRAdIeSqxVPKi42fyO7A/view?usp=sharing) and [BaiduDisk](https://pan.baidu.com/s/1WzPjaeAB6lQ9QcMRx9gwqA?pwd=e73r).
+
+- The pre-trained WFANet is available at [Google Drive](https://drive.google.com/file/d/1tddrGrI8bYXhRgMSyQaVILlDT_lglQop/view?usp=sharing) and [BaiduDisk](https://pan.baidu.com/s/1KJalMeI3mfMmJw2shnrXTg?pwd=6v16).
 
 
 ## <a id="license"></a> 🎫 License
 This project is licensed under the [Apache 2.0 license](LICENSE).
-
 
 ## <a id="acknowledgments"></a> 🙏 Acknowledgments 
 The scenarios for synthesized data come from:
