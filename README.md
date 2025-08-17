@@ -116,7 +116,7 @@ sh runEvaluation.sh
 ```
 
 ## <a id="pre-trained-checkpoints"></a> 🤗 Pre-trained Checkpoints
-Pre training weights for PVTV2-b and WFANet need to be downloaded. The pre trained weights of ResNet18 can be automatically downloaded through Timm. Remember to modify the weight path!
+Pre-training weights for PVTV2-b and WFANet need to be downloaded. The pre-trained weights of ResNet18 can be automatically downloaded through Timm. Remember to modify the weight path!
 
 - The pre-trained backbone PVTV2-b is available at [Google Drive](https://drive.google.com/file/d/1YJY2YPA82kHciRAdIeSqxVPKi42fyO7A/view?usp=sharing) and [BaiduDisk](https://pan.baidu.com/s/1WzPjaeAB6lQ9QcMRx9gwqA?pwd=e73r).
 
