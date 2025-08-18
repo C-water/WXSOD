@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  Quan Chen,&nbsp; Xiong Yang,&nbsp; Rongfeng Lu,&nbsp; Qianyu Zhang,&nbsp; Yu Liu,&nbsp; Xiaofei Zhou,&nbsp; Bolun Zheng*
+  Quan Chen,&nbsp; Xiong Yang,&nbsp; Rongfeng Lu,&nbsp; Qianyu Zhang,&nbsp; Yu Liu,&nbsp; Xiaofei Zhou,&nbsp; Bolun Zheng
 </p>
 
 <p align="center">
