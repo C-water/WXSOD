@@ -139,6 +139,13 @@ The scenarios for synthesized data come from:
 ## <a id="citation"></a> 📌 Citation
 If you find our repository useful for your research, please consider citing our paper:
 ```bibtex
-@inproceedings{
+@misc{chen2025wxsodbenchmarkrobustsalient,
+      title={WXSOD: A Benchmark for Robust Salient Object Detection in Adverse Weather Conditions}, 
+      author={Quan Chen and Xiong Yang and Rongfeng Lu and Qianyu Zhang and Yu Liu and Xiaofei Zhou and Bolun Zheng},
+      year={2025},
+      eprint={2508.12250},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2508.12250}, 
 }
 ```
