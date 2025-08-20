@@ -53,7 +53,7 @@ I am actively seeking academic collaboration. If you’re interested in collabor
 ## <a id="dataset-access"></a> 💾 Dataset Access
 The WXSOD dataset is released in two ways:
 
-| [BaiduDisk](https://pan.baidu.com/s/1WU5RE7NBJ2nDvvjixA0RPQ?pwd=hs94) | [Google Drive](https://drive.google.com/file/d/1gCOomZromXYbM29pDjA00NlulzTF4Irw/view?usp=sharing) |
+| [BaiduDisk](https://pan.baidu.com/s/1WU5RE7NBJ2nDvvjixA0RPQ?pwd=hs94) | [Google Drive](https://drive.google.com/file/d/1gCOomZromXYbM29pDjA00NlulzTF4Irw/view?usp=sharing) |[Hugging Face](https://huggingface.co/datasets/C-water/WXSOD)|
 
 
 ## <a id="dataset-structure"></a> 📁 Dataset Structure
