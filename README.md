@@ -85,7 +85,8 @@ The WXSOD dataset is released in two ways:
 ## <a id="Benchmark-results"></a> 🔥 Benchmark Results
 The prediction results of 18 methods on WXSOD benchmark are available at [Google Drive](https://drive.google.com/file/d/1f6DdsuY7UPvZo68Tk3RJ_FBQNbk9ez1L/view?usp=sharing) and [BaiduDisk](https://pan.baidu.com/s/1AaG64_Ac0MSnE8jLX-YEow?pwd=qhif).
 
-Note that the quantitative results are derived from the predicted image at the original resolution, while the MACs is measured on a 384×384 image.
+- Quantitative results are derived from the predicted image at the original resolution, while the MACs is measured on a 384×384 image.
+- For a fair comparison, all models adopt the unified loss function and learning strategy, with default hyper-parameters.
 
 ![](resources/Table2.jpeg)
 ![](resources/Table3.jpeg)
