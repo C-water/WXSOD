@@ -1,11 +1,10 @@
 <p align="center">
-
   <h3 align="center">WXSOD: A Benchmark for Robust Salient Object Detection in Adverse Weather Conditions</h3>
-
 </p>
 
 <p align="center">
   <h3 align="center">(Under Review)</h3>
+  <h3 align="center">(https://arxiv.org/abs/2508.12250v1)</h3>
   <h3 align="center">(We hope this paper will be accepted 🤗)</h3>
 </p>
 
