@@ -65,7 +65,7 @@ class Encoder(nn.Module):
         super(Encoder,self).__init__()
         self.encoder = pvt_v2_b2()
         # self.encoder.load_state_dict(torch.load(r'D:\project\WX_SOD\Ours\pvt_v2_b2.pth', map_location='cpu'), strict=False)
-        self.encoder.load_state_dict(torch.load("C:\project\WX_SOD_1222/Ours/pretrained_model/pvt_v2_b2.pth", map_location='cpu'),strict=False)
+        self.encoder.load_state_dict(torch.load("/data0/chenquan/WXSOD-main/WXSOD-main/pretrained_model/pvt_v2_b2.pth", map_location='cpu'),strict=False)
 
     def forward(self, x):
         out = self.encoder(x)
@@ -255,9 +255,9 @@ class FFM(nn.Module):
 
         return fuse
 
-class GPONet_Ours(nn.Module):
+class WFANet(nn.Module):
     def __init__(self, backbone='pvt', d_channel=256, input_size=384):
-        super(GPONet_Ours, self).__init__()
+        super(WFANet, self).__init__()
         if backbone == 'pvt':
             self.in_channel_list = [512, 320, 128, 64]
         elif backbone == 'resnet':

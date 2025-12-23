@@ -13,7 +13,7 @@ import argparse
 from Data_loader import Rescale
 from Data_loader import ToTensor
 from Data_loader import SalObjDataset_test
-from WFANet import WFANet
+from WFANet_new1 import WFANet
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 
